@@ -1,6 +1,6 @@
-**Progressive Web App Store (PWA Store)**
+**nToolz**
 ===
-
+nToolz is a freelyhosted web app store in github. 
 A Progressive Web App (PWA) is a type of web application that uses modern web technologies to deliver an app-like experience to users, with features like offline functionality, push notifications, and home screen installation. PWAs are designed to provide a seamless and reliable experience on any device or platform, regardless of the user's network connection or device capabilities.
 
 PWAs are built using web technologies such as HTML, CSS, and JavaScript and can be accessed through any web browser. They are designed to be responsive, meaning they adapt to the screen size of the device they are being viewed on. They also use a caching mechanism to store data and resources locally, which allows them to function even when the user is offline.
