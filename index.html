@@ -45,6 +45,8 @@ body{
 	font-family: Arial;
 	margin:0px;
     padding: 0px;
+
+
 }
 a{
 	display:block;
@@ -54,18 +56,67 @@ a{
     
 }
 
+.animate-charcter
+{
+  background-image: linear-gradient(117deg, #ff47b5 16%, #3aef3c 100%, #5045ea);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s ease infinite;
+  display: block;
+  font-size: 80px;
+}
+    
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 a:hover{
 	display:block;
 	color: white;
 	/*background:#333;*/
-	background-image: linear-gradient(117deg, #ff90d3 16%, #3aef3c 100%, #45ea45);
+	/*
+	background: linear-gradient(117deg, #ff47b5 16%, #3aef3c 100%, #45ea45);
+  background-size: auto auto;
+	background-size: 400% 100%;
+	animation: gradient 2s linear infinite;
+	*/
+	background-image: linear-gradient(100deg, #ff47b5 16%, #3aef3c 50%, #5045ea 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+
+  animation: textclip 2s ease infinite;
+  display: block;
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 h1{
 	background:#333;
     color:#fff;
-    padding: 10px 10px 10px 10%;
-    text-align: center;
+    padding: 10px 10px 0px 5%;
+ 
+	background: linear-gradient(117deg, #ff90d3 16%, #3aef3c 100%, #45ea45);
 }
 
 p{
@@ -75,7 +126,7 @@ p{
 </style>
 </head>
 <body>
-<h1>nToolz</h1>
+<h1 class="animate-charcter">nToolz <small style="font-size:20px ;">v 2.0</small></h1>
 <p>
 Here is the list of Progressive Web Application thay you can install in your laptop/desktop or mobile and used in offline mode.
 
